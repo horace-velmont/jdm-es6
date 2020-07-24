@@ -14,8 +14,13 @@ app.use(morgan('dev'));
 app.use(cors({
     exposedHeaders: "*"
 }));
-var a = undefined;
-var b = 22;
+
+const a = "123";
+const b = "45";
+if (a < b) {
+    console.log("same");
+}
+
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));
 
 app.use(bodyParser.json({

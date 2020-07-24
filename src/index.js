@@ -17,8 +17,8 @@ app.use(cors({
 
 const a = "123";
 const b = "45";
-if (a < b) {
-    console.log("same");
+if (Number.isNaN(a)) {
+    console.log("a is not a number");
 }
 
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));

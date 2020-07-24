@@ -19,9 +19,6 @@ const a = "123";
 const b = "45";
 const c = ['a'];
 delete c[0];
-if (Number.isNaN(a)) {
-    console.log("a is not a number");
-}
 if (a == b) {
     console.log("a==b");
 }

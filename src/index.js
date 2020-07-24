@@ -20,6 +20,9 @@ const b = "45";
 if (Number.isNaN(a)) {
     console.log("a is not a number");
 }
+if (a == b) {
+    console.log("a==b");
+}
 
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));
 

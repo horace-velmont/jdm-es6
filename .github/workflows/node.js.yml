@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install 
+    - run: npm install
     - run: npm run build
     - run: npm run eslint
     - run: npm test
@@ -39,4 +39,4 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.3.6 # This is the action
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-        heroku_app_name: "jdm-es6-server" 
+        heroku_app_name: "jdm-es6"

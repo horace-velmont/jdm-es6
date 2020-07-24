@@ -40,3 +40,4 @@ jobs:
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "jdm-es6"
+        heroku_email: "dragond7@naver.com" 

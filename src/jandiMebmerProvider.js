@@ -1,6 +1,18 @@
 class JandiMebmerProvider {
     provideMember() {
-        return ['뇸뇸', '또르', '복이', '레게힙합소년', '컴공돌이', '1컴이'];
+        return {
+            '뇸뇸': 'ellapresso',
+            '뇌가불편': 'ljhg1124',
+            '또르': '9992',
+            '사이클러': 'msnodeve',
+            '컴공돌이': 'cafemug',
+            '1컴이': 'horace-velmont',
+            '망고클라우드': 'hoonifluffyrabbit',
+            '해피스마일': 'happysmile',
+            '맹코': 'Mengkko',
+            '감동란': 'th787706',
+            '개밥': 'dogcolley'
+        };
     }
 }
 

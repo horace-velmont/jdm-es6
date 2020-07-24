@@ -15,6 +15,8 @@ app.use(cors({
     exposedHeaders: "*"
 }));
 
+const octal = 010;
+
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));
 
 app.use(bodyParser.json({

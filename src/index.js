@@ -14,7 +14,7 @@ app.use(morgan('dev'));
 app.use(cors({
     exposedHeaders: "*"
 }));
-var a = 1;
+var a = undefined;
 var b = 22;
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));
 

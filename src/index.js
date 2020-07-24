@@ -15,6 +15,14 @@ app.use(cors({
     exposedHeaders: "*"
 }));
 
+const a = "123";
+const b = "45";
+const c = ['a'];
+delete c[0];
+if (a == b) {
+    console.log("a==b");
+}
+
 app.use('/jandi-member-list', (req, res) => res.send(new JandiMemberProvider().provideMember()));
 
 app.use(bodyParser.json({

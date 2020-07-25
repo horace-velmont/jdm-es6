@@ -28,8 +28,7 @@ class JandiMebmerProvider {
             '소니': 'GDana',
             '병아리': 'cruisediary',
             '방탕성현단': 'Seonghy',
-            '양념치킨': 'KEJdev',
-            'test': 'test'
+            '양념치킨': 'KEJdev'
         };
     }
 }
